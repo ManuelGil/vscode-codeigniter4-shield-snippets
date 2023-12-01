@@ -1,0 +1,38 @@
+{
+  "isBanned": {
+    "prefix": [
+      "ci:auth:isBanned",
+      "$user->isBanned",
+      "isBanned"
+    ],
+    "body": "\\$user->isBanned()",
+    "description": "Check if user is banned."
+  },
+  "ban": {
+    "prefix": [
+      "ci:auth:ban",
+      "$user->ban",
+      "ban"
+    ],
+    "body": "\\$user->ban('${1:message}')",
+    "description": "Ban user."
+  },
+  "unBan": {
+    "prefix": [
+      "ci:auth:unBan",
+      "$user->unBan",
+      "unBan"
+    ],
+    "body": "\\$user->unBan()",
+    "description": "Unban user."
+  },
+  "getBanMessage": {
+    "prefix": [
+      "ci:auth:getBanMessage",
+      "$user->getBanMessage",
+      "getBanMessage"
+    ],
+    "body": "\\$user->getBanMessage()",
+    "description": "Get ban message."
+  }
+}

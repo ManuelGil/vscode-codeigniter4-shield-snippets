@@ -66,6 +66,17 @@ CodeIgniter 4 Shield - snippets & autocomplete for VSCode editor.
 | ci:auth:hasPermission | hasPermission() |
 | ci:auth:can | can() |
 | ci:auth:inGroup | inGroup() |
+| ci:auth:isActivated | $user->isActivated() |
+| ci:auth:isNotActivated | $user->isNotActivated() |
+| ci:auth:activate | $user->activate() |
+| ci:auth:deactivate | $user->deactivate() |
+| ci:auth:isBanned | $user->isBanned() |
+| ci:auth:ban | $user->ban() |
+| ci:auth:unBan | $user->unBan() |
+| ci:auth:getBanMessage | $user->getBanMessage() |
+| ci:auth:requiresPasswordReset | $user->requiresPasswordReset() |
+| ci:auth:forcePasswordReset | $user->forcePasswordReset() |
+| ci:auth:undoForcePasswordReset | $user->undoForcePasswordReset() |
 
 ## Other Repositories
 

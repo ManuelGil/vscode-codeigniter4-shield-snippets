@@ -1,0 +1,38 @@
+{
+  "isActivated": {
+    "prefix": [
+      "ci:auth:isActivated",
+      "$user->isActivated",
+      "isActivated"
+    ],
+    "body": "\\$user->isActivated()",
+    "description": "Returns true if the user has been activated and activation is required after registration."
+  },
+  "isNotActivated": {
+    "prefix": [
+      "ci:auth:isNotActivated",
+      "$user->isNotActivated",
+      "isNotActivated"
+    ],
+    "body": "\\$user->isNotActivated()",
+    "description": "Returns true if the user has not been activated and activation is required after registration."
+  },
+  "activate": {
+    "prefix": [
+      "ci:auth:activate",
+      "$user->activate",
+      "activate"
+    ],
+    "body": "\\$user->activate()",
+    "description": "Activates the user."
+  },
+  "deactivate": {
+    "prefix": [
+      "ci:auth:deactivate",
+      "$user->deactivate",
+      "deactivate"
+    ],
+    "body": "\\$user->deactivate()",
+    "description": "Deactivates the user."
+  }
+}

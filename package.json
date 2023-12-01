@@ -2,7 +2,7 @@
   "name": "vscode-codeigniter4-shield-snippets",
   "displayName": "CodeIgniter 4 Shield Snippets",
   "description": "CodeIgniter 4 Shield Snippets for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "icon.png",
   "license": "MIT",
   "publisher": "imgildev",
@@ -50,13 +50,13 @@
     "vscode snippets",
     "vscode"
   ],
-  "homepage": "https://github.com/ManuelGil/vscode-codeigniter4-shield",
+  "homepage": "https://github.com/ManuelGil/vscode-codeigniter4-shield-snippets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield"
+    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield-snippets"
   },
   "bugs": {
-    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield/issues"
+    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield-snippets/issues"
   },
   "extensionPack": [
     "imgildev.vscode-codeigniter4-snippets"
@@ -74,6 +74,18 @@
       {
         "language": "php",
         "path": "./snippets/authorization/traits.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/traits/activatable.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/traits/bannable.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/traits/resettable.json"
       }
     ]
   }

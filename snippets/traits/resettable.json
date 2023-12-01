@@ -1,0 +1,29 @@
+{
+  "requiresPasswordReset": {
+    "prefix": [
+      "ci:auth:requiresPasswordReset",
+      "$user->requiresPasswordReset",
+      "requiresPasswordReset"
+    ],
+    "body": "\\$user->requiresPasswordReset()",
+    "description": "Returns true|false based on the value of the force reset column of the user's identity."
+  },
+  "forcePasswordReset": {
+    "prefix": [
+      "ci:auth:forcePasswordReset",
+      "$user->requiresPasswordReset",
+      "forcePasswordReset"
+    ],
+    "body": "\\$user->forcePasswordReset()",
+    "description": "Sets the force reset column of the user's identity to true."
+  },
+  "undoForcePasswordReset": {
+    "prefix": [
+      "ci:auth:undoForcePasswordReset",
+      "$user->requiresPasswordReset",
+      "undoForcePasswordReset"
+    ],
+    "body": "\\$user->undoForcePasswordReset()",
+    "description": "Sets the force reset column of the user's identity to false."
+  }
+}
