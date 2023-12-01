@@ -1,0 +1,80 @@
+{
+  "name": "vscode-codeigniter4-shield-snippets",
+  "displayName": "CodeIgniter 4 Shield Snippets",
+  "description": "CodeIgniter 4 Shield Snippets for Visual Studio Code",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "license": "MIT",
+  "publisher": "imgildev",
+  "author": {
+    "name": "Manuel Gil",
+    "url": "https://github.com/ManuelGil"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/manuelgil"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "auth codeigniter 4 shield",
+    "auth codeigniter 4 snippets",
+    "auth codeigniter 4",
+    "auth shield",
+    "auth snippets",
+    "auth",
+    "ci 4 shield",
+    "ci 4",
+    "ci",
+    "ci4 shield",
+    "ci4",
+    "codeigniter 4 shield",
+    "codeigniter 4",
+    "codeigniter shield",
+    "codeigniter",
+    "codeigniter4 shield",
+    "codeigniter4",
+    "codeigniter4shield",
+    "codeigniter4snippets",
+    "framework",
+    "keybindings",
+    "php framework",
+    "php shield",
+    "php",
+    "shield",
+    "snippets",
+    "vscode extension",
+    "vscode snippets",
+    "vscode"
+  ],
+  "homepage": "https://github.com/ManuelGil/vscode-codeigniter4-shield",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield"
+  },
+  "bugs": {
+    "url": "https://github.com/ManuelGil/vscode-codeigniter4-shield/issues"
+  },
+  "extensionPack": [
+    "imgildev.vscode-codeigniter4-snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/auth.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/authentication/traits.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/authorization/traits.json"
+      }
+    ]
+  }
+}

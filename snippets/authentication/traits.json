@@ -1,0 +1,170 @@
+{
+  "generateAccessToken": {
+    "prefix": [
+      "ci:auth:generateAccessToken",
+      "generateAccessToken"
+    ],
+    "body": "generateAccessToken('${1:name}', [${2:scopes}])",
+    "description": "Generates a new personal access token for this user."
+  },
+  "revokeAccessToken": {
+    "prefix": [
+      "ci:auth:revokeAccessToken",
+      "revokeAccessToken"
+    ],
+    "body": "revokeAccessToken('${1:rawToken}')",
+    "description": "Delete any access tokens for the given raw token."
+  },
+  "revokeAccessTokenBySecret": {
+    "prefix": [
+      "ci:auth:revokeAccessTokenBySecret",
+      "revokeAccessTokenBySecret"
+    ],
+    "body": "revokeAccessTokenBySecret('${1:secretToken}')",
+    "description": "Delete any access tokens for the given secret token."
+  },
+  "revokeAllAccessTokens": {
+    "prefix": [
+      "ci:auth:revokeAllAccessTokens",
+      "revokeAllAccessTokens"
+    ],
+    "body": "revokeAllAccessTokens()",
+    "description": "Delete all access tokens for this user."
+  },
+  "accessTokens": {
+    "prefix": [
+      "ci:auth:accessTokens",
+      "accessTokens"
+    ],
+    "body": "accessTokens()",
+    "description": "Get all of the access tokens for this user."
+  },
+  "getAccessToken": {
+    "prefix": [
+      "ci:auth:getAccessToken",
+      "getAccessToken"
+    ],
+    "body": "getAccessToken('${1:rawToken}')",
+    "description": "Get the access token instance for the given token."
+  },
+  "getAccessTokenById": {
+    "prefix": [
+      "ci:auth:getAccessTokenById",
+      "getAccessTokenById"
+    ],
+    "body": "getAccessTokenById(${1:id})",
+    "description": "Get the access token instance for the given ID."
+  },
+  "tokenCan": {
+    "prefix": [
+      "ci:auth:tokenCan",
+      "tokenCan"
+    ],
+    "body": "tokenCan('${1:scope}')",
+    "description": "Determines whether the user's token grants permissions to scope."
+  },
+  "tokenCant": {
+    "prefix": [
+      "ci:auth:tokenCant",
+      "tokenCant"
+    ],
+    "body": "tokenCant('${1:scope}')",
+    "description": "Determines whether the user's token does not grant permissions to scope."
+  },
+  "currentAccessToken": {
+    "prefix": [
+      "ci:auth:currentAccessToken",
+      "currentAccessToken"
+    ],
+    "body": "currentAccessToken()",
+    "description": "Get the current access token being used by the user."
+  },
+  "setAccessToken": {
+    "prefix": [
+      "ci:auth:setAccessToken",
+      "setAccessToken"
+    ],
+    "body": "setAccessToken(${1:accessToken})",
+    "description": "Set the current access token for the user."
+  },
+  "generateHmacToken": {
+    "prefix": [
+      "ci:auth:generateHmacToken",
+      "generateHmacToken"
+    ],
+    "body": "generateHmacToken('${1:name}', [${2:scopes}])",
+    "description": "Generates a new personal HMAC token for this user."
+  },
+  "revokeHmacToken": {
+    "prefix": [
+      "ci:auth:revokeHmacToken",
+      "revokeHmacToken"
+    ],
+    "body": "revokeHmacToken('${1:key}')",
+    "description": "Delete any HMAC tokens for the given key."
+  },
+  "revokeAllHmacTokens": {
+    "prefix": [
+      "ci:auth:revokeAllHmacTokens",
+      "revokeAllHmacTokens"
+    ],
+    "body": "revokeAllHmacTokens()",
+    "description": "Delete all HMAC tokens for this user."
+  },
+  "hmacTokens": {
+    "prefix": [
+      "ci:auth:hmacTokens",
+      "hmacTokens"
+    ],
+    "body": "hmacTokens()",
+    "description": "Get all of the HMAC tokens for this user."
+  },
+  "getHmacToken": {
+    "prefix": [
+      "ci:auth:getHmacToken",
+      "getHmacToken"
+    ],
+    "body": "getHmacToken('${1:key}')",
+    "description": "Get the HMAC token instance for the given key."
+  },
+  "getHmacTokenById": {
+    "prefix": [
+      "ci:auth:getHmacTokenById",
+      "getHmacTokenById"
+    ],
+    "body": "getHmacTokenById(${1:id})",
+    "description": "Get the HMAC token instance for the given ID."
+  },
+  "hmacTokenCan": {
+    "prefix": [
+      "ci:auth:hmacTokenCan",
+      "hmacTokenCan"
+    ],
+    "body": "hmacTokenCan('${1:scope}')",
+    "description": "Determines whether the user's HMAC token grants permissions to scope."
+  },
+  "hmacTokenCant": {
+    "prefix": [
+      "ci:auth:hmacTokenCant",
+      "hmacTokenCant"
+    ],
+    "body": "hmacTokenCant('${1:scope}')",
+    "description": "Determines whether the user's HMAC token does not grant permissions to scope."
+  },
+  "currentHmacToken": {
+    "prefix": [
+      "ci:auth:currentHmacToken",
+      "currentHmacToken"
+    ],
+    "body": "currentHmacToken()",
+    "description": "Get the current HMAC token being used by the user."
+  },
+  "setHmacToken": {
+    "prefix": [
+      "ci:auth:setHmacToken",
+      "setHmacToken"
+    ],
+    "body": "setHmacToken(${1:accessToken})",
+    "description": "Set the current HMAC token for the user."
+  }
+}

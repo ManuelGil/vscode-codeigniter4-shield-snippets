@@ -1,0 +1,90 @@
+{
+  "addGroup": {
+    "prefix": [
+      "ci:auth:addGroup",
+      "addGroup"
+    ],
+    "body": "addGroup('${1:groups}')",
+    "description": "Adds one or more groups to the current User."
+  },
+  "removeGroup": {
+    "prefix": [
+      "ci:auth:removeGroup",
+      "removeGroup"
+    ],
+    "body": "removeGroup('${1:groups}')",
+    "description": "Removes one or more groups from the current User."
+  },
+  "syncGroups": {
+    "prefix": [
+      "ci:auth:syncGroups",
+      "syncGroups"
+    ],
+    "body": "syncGroups('${1:groups}')",
+    "description": "Syncs the current User's groups with the provided groups."
+  },
+  "getGroups": {
+    "prefix": [
+      "ci:auth:getGroups",
+      "getGroups"
+    ],
+    "body": "getGroups()",
+    "description": "Returns an array of the current User's groups."
+  },
+  "getPermissions": {
+    "prefix": [
+      "ci:auth:getPermissions",
+      "getPermissions"
+    ],
+    "body": "getPermissions()",
+    "description": "Returns an array of the current User's permissions."
+  },
+  "addPermission": {
+    "prefix": [
+      "ci:auth:addPermission",
+      "addPermission"
+    ],
+    "body": "addPermission('${1:permissions}')",
+    "description": "Adds one or more permissions to the current User."
+  },
+  "removePermission": {
+    "prefix": [
+      "ci:auth:removePermission",
+      "removePermission"
+    ],
+    "body": "removePermission('${1:permissions}')",
+    "description": "Removes one or more permissions from the current User."
+  },
+  "syncPermissions": {
+    "prefix": [
+      "ci:auth:syncPermissions",
+      "syncPermissions"
+    ],
+    "body": "syncPermissions('${1:permissions}')",
+    "description": "Syncs the current User's permissions with the provided permissions."
+  },
+  "hasPermission": {
+    "prefix": [
+      "ci:auth:hasPermission",
+      "hasPermission"
+    ],
+    "body": "hasPermission('${1:permission}')",
+    "description": "Returns true if the current User has the provided permission."
+  },
+  "can": {
+    "prefix": [
+      "ci:auth:can",
+      "can"
+    ],
+    "body": "can('${1:permissions}')",
+    "description": "Returns true if the current User has all of the provided permissions."
+  },
+  "inGroup": {
+    "prefix": [
+      "ci:auth:inGroup",
+      "inGroup"
+    ],
+    "body": "inGroup('${1:groups}')",
+    "description": "Returns true if the current User is in all of the provided groups."
+  }
+}
