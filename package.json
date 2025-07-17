@@ -1,8 +1,8 @@
 {
   "name": "vscode-codeigniter4-shield-snippets",
   "displayName": "CodeIgniter 4 Shield Snippets",
-  "description": "CodeIgniter 4 Shield Snippets for Visual Studio Code",
-  "version": "1.1.0",
+  "description": "CodeIgniter 4 Shield Snippets is a collection of snippets for CodeIgniter 4 Shield, providing quick access to commonly used code patterns and functionalities related to authentication and authorization.",
+  "version": "1.1.1",
   "icon": "icon.png",
   "license": "MIT",
   "publisher": "imgildev",
@@ -14,7 +14,7 @@
     "url": "https://github.com/sponsors/manuelgil"
   },
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Snippets"
