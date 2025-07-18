@@ -13,6 +13,8 @@
 
 CodeIgniter 4's Shield library provides a robust foundation for authentication, authorization, and token management. This extension delivers over 80 context‑aware snippets and autocomplete entries for all common Shield methods, reducing lookup time and ensuring consistent, error‑free code.
 
+![demo](https://raw.githubusercontent.com/ManuelGil/vscode-codeigniter4-snippets/main/docs/images/demo.gif)
+
 ## Getting Started
 
 1. Ensure your project uses **CodeIgniter 4.3.0** or later.
